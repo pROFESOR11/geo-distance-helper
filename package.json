@@ -1,5 +1,5 @@
 {
-  "name": "geo-distance.js",
+  "name": "geo-distance-helper",
   "version": "1.0.0",
   "description": "Get distance between two points in kilometers, nautical miles or statute miles",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pROFESOR11/distance.js.git"
+    "url": "git+https://github.com/pROFESOR11/geo-distance-helper.git"
   },
   "keywords": [
     "distance",
@@ -17,7 +17,7 @@
   "author": "pROFESOR11",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pROFESOR11/distance.js/issues"
+    "url": "https://github.com/pROFESOR11/geo-distance-helper/issues"
   },
-  "homepage": "https://github.com/pROFESOR11/distance.js#readme"
+  "homepage": "https://github.com/pROFESOR11/geo-distance-helper#readme"
 }
