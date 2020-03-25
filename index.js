@@ -5,10 +5,10 @@ var geoDistance = function(
   { lat: lat2, lng: lng2 },
   unit = "K"
 ) {
-  if (typeof lat1 != number || typeof lng1 != number) {
+  if (typeof lat1 != "number" || typeof lng1 != "number") {
     throw new Error("Point-1 must have valid lat and lng attributes");
   }
-  if (typeof lat2 != number || typeof lng2 != number) {
+  if (typeof lat2 != "number" || typeof lng2 != "number") {
     throw new Error("Point-2 must have valid lat and lng attributes");
   }
   if (lat1 == lat2 && lng1 == lng2) {
@@ -37,4 +37,4 @@ var geoDistance = function(
   }
 };
 
-export default geoDistance;
+module.exports = geoDistance;
