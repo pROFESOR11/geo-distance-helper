@@ -22,4 +22,4 @@ const point2 = {lat: 64, lng: 21};
 const distance = geoDistance(point1, point2);
 
 // distance in nautical miles
-const distance = geoDistance(point1, point2, 'N');```
+const distance = geoDistance(point1, point2, 'N');
