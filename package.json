@@ -1,0 +1,23 @@
+{
+  "name": "geo-distance.js",
+  "version": "1.0.0",
+  "description": "Get distance between two points in kilometers, nautical miles or statute miles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pROFESOR11/distance.js.git"
+  },
+  "keywords": [
+    "distance",
+    "latlng"
+  ],
+  "author": "pROFESOR11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pROFESOR11/distance.js/issues"
+  },
+  "homepage": "https://github.com/pROFESOR11/distance.js#readme"
+}
