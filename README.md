@@ -13,10 +13,10 @@ unit  | string | false | 'K' | 'K': Kilometers, 'N': Nautical miles
 
 ```
 import geoDistance from 'geo-distance-helper';
-// ...
+// const geoDistance = require('geo-distance-helper');
 
 const point1 = {lat: 36, lng: 42};
-const point2 = {lat: 64, lng. 21};
+const point2 = {lat: 64, lng: 21};
 
 // distance in kilometers
 const distance = geoDistance(point1, point2);
