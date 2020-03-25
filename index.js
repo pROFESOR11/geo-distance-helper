@@ -1,4 +1,6 @@
-module.export = function(
+"use strict";
+
+var geoDistance = function(
   { lat: lat1, lng: lng1 },
   { lat: lat2, lng: lng2 },
   unit = "K"
@@ -34,3 +36,5 @@ module.export = function(
     return dist;
   }
 };
+
+export default geoDistance;
