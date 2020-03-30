@@ -1,6 +1,18 @@
 # geo-distance-helper
 Get distance between two points in kilometers, nautical miles
 
+
+## Install
+
+* npm
+```
+npm install geo-distance-helper
+```
+* yarn
+```
+yarn add geo-distance-helper
+```
+
 ## API
 
 Args              | Type     | Required | Default     | Description
