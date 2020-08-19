@@ -18,11 +18,20 @@ yarn add geo-distance-helper
 
 ## API
 
-| Args   | Type                     | Required | Default | Description                          |
-| ------ | ------------------------ | -------- | ------- | ------------------------------------ |
-| point1 | {lat: Float, lng: Float} | true     | -       | Point1 coordinates                   |
-| point2 | {lat: Float, lng: Float} | true     | -       | Point2 coordinates                   |
-| unit   | string                   | false    | 'K'     | 'K': Kilometers, 'N': Nautical miles |
+| Args   | Type       | Required | Default | Description                          |
+| ------ | ---------- | -------- | ------- | ------------------------------------ |
+| point1 | `GeoPoint` | true     | -       | Point1 coordinates                   |
+| point2 | `GeoPoint` | true     | -       | Point2 coordinates                   |
+| unit   | string     | false    | 'K'     | 'K': Kilometers, 'N': Nautical miles |
+
+## Types
+
+- GeoPoint
+
+| Args | Type   | Required | Default | Description     |
+| ---- | ------ | -------- | ------- | --------------- |
+| lat  | number | true     | -       | Point latitude  |
+| lng  | number | true     | -       | Point longitude |
 
 ## Example Usage
 
