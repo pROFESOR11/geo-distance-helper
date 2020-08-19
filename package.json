@@ -1,8 +1,9 @@
 {
   "name": "geo-distance-helper",
   "version": "1.1.2",
-  "description": "Get distance between two points in kilometers, nautical miles or statute miles",
-  "main": "index.js",
+  "description": "Get distance between two points in kilometers or nautical miles",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +13,18 @@
   },
   "keywords": [
     "distance",
-    "latlng"
+    "latlng",
+    "geo",
+    "latitude",
+    "longitude"
   ],
   "author": "pROFESOR11",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pROFESOR11/geo-distance-helper/issues"
   },
-  "homepage": "https://github.com/pROFESOR11/geo-distance-helper#readme"
+  "homepage": "https://github.com/pROFESOR11/geo-distance-helper#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
 }
