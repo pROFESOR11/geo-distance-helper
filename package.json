@@ -1,6 +1,6 @@
 {
   "name": "geo-distance-helper",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Get distance between two points in kilometers or nautical miles",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
