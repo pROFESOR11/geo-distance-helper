@@ -1,8 +1,7 @@
-# geo-distance-helper (100% typed)
+# geo-distance-helper
 
 Get distance between two points in kilometers, nautical miles
-
-100% typescript, get autocompletions while using
+**100% typescript**, get autocompletions while using.
 
 ## Install
 
