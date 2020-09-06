@@ -9,8 +9,8 @@ export function geoDistance(
   point2: GeoPoint,
   unit: "K" | "N" = "K"
 ): Number {
-  const { lat1 = undefined, lng1 = undefined } = point1;
-  const { lat2 = undefined, lng2 = undefined } = point2;
+  const { lat: lat1 = undefined, lng: lng1 = undefined } = point1;
+  const { lat: lat2 = undefined, lng: lng2 = undefined } = point2;
 
   if (!lat1 || !lng1 || !lat2 || !lng2) {
     throw new Error("Points must have valid lat and lng attributes");
