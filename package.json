@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,13 @@
   },
   "homepage": "https://github.com/pROFESOR11/geo-distance-helper#readme",
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.14",
+    "babel-jest": "^26.5.2",
+    "jest": "^26.5.3",
+    "ts-jest": "^26.4.1",
     "typescript": "^3.9.7"
   }
 }
