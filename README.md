@@ -34,6 +34,7 @@ yarn add geo-distance-helper
 yarn test
 
 // using npm
+npm test
 ```
 
 ## Types
