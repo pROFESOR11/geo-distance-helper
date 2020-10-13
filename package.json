@@ -2,6 +2,9 @@
   "name": "geo-distance-helper",
   "version": "2.0.4",
   "description": "Get distance between two points in kilometers or nautical miles",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
