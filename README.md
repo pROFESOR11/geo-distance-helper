@@ -27,6 +27,15 @@ yarn add geo-distance-helper
 | point2 | `GeoPoint` | true     | -       | Point2 coordinates                   |
 | unit   | string     | false    | 'K'     | 'K': Kilometers, 'N': Nautical miles |
 
+## Test
+
+```
+// using yarn
+yarn test
+
+// using npm
+```
+
 ## Types
 
 - GeoPoint
